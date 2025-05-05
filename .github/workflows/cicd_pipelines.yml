@@ -23,7 +23,8 @@ jobs:
           script: | 
             echo "Berhasil Terhubung Ke Server"
 
-            cd /home/cicd/cicd_database_exercise
+            cd /home/cicd/cicd_database_exercise 
+            ls
             echo "Berhasil Masuk Ke Folder CICS Database Exercise"
 
             docker compose up -d --build # Menjalankan docker compose untuk 
