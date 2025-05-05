@@ -22,3 +22,9 @@ jobs:
           password: ${{ secrets.SERVER_PASSWORD }}
           script: | 
             echo "Berhasil Terhubung Ke Server"
+
+            cd /home/cicd/cicd_database_exercise
+            echo "Berhasil Masuk Ke Folder CICS Database Exercise"
+
+            docker compose up -d --build # Menjalankan docker compose untuk 
+            build image dan menjalankan docker compose
