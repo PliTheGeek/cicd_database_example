@@ -28,4 +28,4 @@ jobs:
             echo "Berhasil Masuk Ke Folder CICD Database Exercise"
 
             docker compose up -d 
-            build image dan menjalankan docker compose
+            echo "Berhasil Menjalankan Docker Compose"
