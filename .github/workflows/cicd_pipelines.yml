@@ -27,5 +27,5 @@ jobs:
             ls  
             echo "Berhasil Masuk Ke Folder CICD Database Exercise"
 
-            docker compose up -d 
+            sudo docker compose up -d 
             echo "Berhasil Menjalankan Docker Compose"
