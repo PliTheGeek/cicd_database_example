@@ -20,5 +20,5 @@ jobs:
           host: ${{ secrets.SERVER_HOST }}
           username: ${{ secrets.SERVER_NAME }}
           password: ${{ secrets.SERVER_PASSWORD }}
-        script: 
-          echo: "Berhasil Terhubung Ke Server"
+          script: | 
+            echo: "Berhasil Terhubung Ke Server"
