@@ -29,3 +29,11 @@ jobs:
 
             sudo docker compose up -d 
             echo "Berhasil Menjalankan Docker Compose"
+
+            if [ -d " .git" ]; then
+              echo "Git directory exists, pulling latest changes"
+              git pull origin main
+            else
+              echo "Git directory does not exist, cloning repository"
+              git clone
+            fi
